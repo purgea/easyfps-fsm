@@ -1,4 +1,29 @@
+# Exclude source TS files
+src/**
+esbuild.js
+
+# Exclude build configs and logs
 .vscode/**
-.vscode-test/**
-.gitignore
-vsc-extension-quickstart.md
+.vscodeignore
+tsconfig.json
+*.log
+
+# Exclude test files
+test/**
+tests/**
+
+# Exclude node_modules except production deps
+**/node_modules/**
+!node_modules/vscode-languageclient/**
+!node_modules/vscode-languageserver/**
+!node_modules/vscode-languageserver-textdocument/**
+!node_modules/vscode-uri/**
+!node_modules/@types/**
+
+# Exclude lock files
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Exclude misc
+*.map

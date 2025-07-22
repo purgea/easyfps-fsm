@@ -9,9 +9,16 @@
   "categories": [
     "Programming Languages"
   ],
+  "activationEvents": [
+    "onLanguage:efsm"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/purgea/easyfps-fsm"
+  },
+  "main": "./out/extension.js",
+  "scripts": {
+    "build": "node esbuild.js"
   },
   "license": "MIT",
   "publisher": "purgea",
@@ -42,5 +49,16 @@
         "path": "./snippets/fsm-snippets.json"
       }
     ]
+  },
+  "dependencies": {
+    "typescript": "^5.8.3",
+    "vscode-languageclient": "^9.0.1",
+    "vscode-languageserver": "^9.0.1",
+    "vscode-languageserver-textdocument": "^1.0.12"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.15",
+    "esbuild": "^0.25.8",
+    "vscode": "^1.1.37"
   }
 }
