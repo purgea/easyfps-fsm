@@ -7,8 +7,7 @@ It adds syntax highlighting and useful code snippets for writing FSM logic.
 
 ## Features
 
-- Highlights FSM keywords, logic, actions, and variables
-- Supports comments and random expressions
+- Highlights FSM keywords, logic and variables
 - More to come...
 
 ---
@@ -17,14 +16,14 @@ It adds syntax highlighting and useful code snippets for writing FSM logic.
 
 The extension is available on the VS Code Marketplace, although it can also be installed manually by building the VSIX file.
 
-## From Marketplace
+### From Marketplace
 
 1. Open VS Code
 2. Press `Ctrl+Shift+X`
 3. Search for **EasyFPS Editor FSM**
 4. Click **Install**
 
-## Manual
+### Manually
 
 1. Clone the repository
 2. Run `npm install`
