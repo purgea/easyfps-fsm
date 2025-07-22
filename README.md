@@ -15,15 +15,22 @@ It adds syntax highlighting and useful code snippets for writing FSM logic.
 
 ## Installation
 
-### From Marketplace
+The extension is available on the VS Code Marketplace, although it can also be installed manually by building the VSIX file.
+
+## From Marketplace
 
 1. Open VS Code
 2. Press `Ctrl+Shift+X`
-3. Search for **EasyFPS FSM**
+3. Search for **EasyFPS Editor FSM**
 4. Click **Install**
 
-### Manual
+## Manual
 
-```bash
-git clone https://github.com/purgea/easyfps-fsm.git
-cd easyfps-fsm
+1. Clone the repository
+2. Run `npm install`
+3. Run `npm run build`
+4. Run `vsce package`
+5. Open VS Code
+6. Press `Ctrl+Shift+P`
+7. Search for **Developer: Install Extension from VSIX**
+8. Select the `easyfps-fsm.vsix` file
