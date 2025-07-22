@@ -1,6 +1,6 @@
 {
   "name": "easyfps-fsm",
-  "displayName": "EasyFPS-FSM",
+  "displayName": "EasyFPS Editor FSM",
   "description": "Offers syntax highlighting for EFPSE's FSM code",
   "version": "0.0.1",
   "engines": {
