@@ -1,0 +1,28 @@
+{
+  "scopeName": "source.efpse-fsm",
+  "name": "EasyFPS FSM",
+  "patterns": [
+    {
+      "match": "\\b(state|frame|image|sound|JUMPIF[A-Z]*|SETVAR|READY|ATTACK|SOUND|NONE|PARTICLES|EXPLOSION|PROJECTILE|CLAMP|INCREMENT|DECREMENT|MULTIPLY|DIVIDE|MODULO|SETHP|HEAL|HURT)\\b",
+      "name": "keyword.control.efpse"
+    },
+    {
+      "match": "\\b[A-Z_]{2,}\\b",
+      "name": "constant.language.efpse"
+    },
+    {
+      "match": "\\d+\\.?\\d*",
+      "name": "constant.numeric.efpse"
+    },
+    {
+      "match": "\"[^\"]*\"",
+      "name": "string.quoted.double.efpse"
+    },
+    {
+      "match": "\\b(\\$[a-zA-Z0-9_]+|RANDOM\\(.*?\\))\\b",
+      "name": "variable.language.efpse"
+    }
+  ],
+  "fileTypes": ["states"],
+  "uuid": "e4d67de0-1234-4ef5-bbbb-a03f-efpsefsm"
+}

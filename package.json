@@ -1,0 +1,40 @@
+{
+  "name": "easyfps-fsm",
+  "displayName": "EasyFPS-FSM",
+  "description": "Offers syntax highlighting for EFPSE's FSM code",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.102.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "efpse-fsm",
+        "aliases": [
+          "EFPSE FSM",
+          "efpse-fsm"
+        ],
+        "extensions": [
+          ".states"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "efpse-fsm",
+        "scopeName": "source.efpse-fsm",
+        "path": "./syntaxes/efpse-fsm.tmLanguage.json"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "efpse-fsm",
+        "path": "./snippets/fsm-snippets.json"
+      }
+    ]
+  }
+}
